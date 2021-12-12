@@ -1,0 +1,78 @@
+Started GET "/" for ::1 at 2021-12-12 20:18:24 +0300
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Ivan/.rvm/gems/ruby-3.0.3/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Ivan/.rvm/gems/ruby-3.0.3/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 14.9ms | Allocations: 599)
+Completed 200 OK in 56ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 4979)
+
+
+Started GET "/" for ::1 at 2021-12-12 20:19:48 +0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Ivan/.rvm/gems/ruby-3.0.3/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Ivan/.rvm/gems/ruby-3.0.3/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.0ms | Allocations: 491)
+Completed 200 OK in 19ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 3630)
+
+
+Started GET "/" for ::1 at 2021-12-12 20:19:51 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Ivan/.rvm/gems/ruby-3.0.3/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Ivan/.rvm/gems/ruby-3.0.3/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.0ms | Allocations: 261)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 1175)
+
+
+Started GET "/" for ::1 at 2021-12-12 20:19:57 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Ivan/.rvm/gems/ruby-3.0.3/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Ivan/.rvm/gems/ruby-3.0.3/gems/railties-6.1.4.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 46)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 459)
+
+
+Started GET "/" for ::1 at 2021-12-12 20:29:33 +0300
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 358)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/Ivan/Desktop/test/hello_world/public/packs
+[Webpacker] Hash: e2a8a876c5815bee1e21
+Version: webpack 4.46.0
+Time: 1271ms
+Built at: 12/12/2021 8:29:37 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 3347.9ms | Allocations: 15536)
+Completed 200 OK in 3361ms (Views: 3352.6ms | ActiveRecord: 0.0ms | Allocations: 19090)
+
+
+Started GET "/" for ::1 at 2021-12-12 20:31:23 +0300
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 391)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 6624)
+Completed 200 OK in 28ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 10305)
+
+
+Started GET "/" for ::1 at 2021-12-12 20:31:30 +0300
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3594)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 4158)
+
+
